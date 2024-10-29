@@ -1,0 +1,57 @@
+/* Main container with background */
+.main {
+    background: url('/../assets/bg2.jpg');
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  /* Content in the center */
+  ._content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  /* iPhone container styling */
+  .iphone-container {
+    width: 400px;
+    height: 300px;
+    border-radius: 40px;
+    border: 16px solid #000;
+    position: relative;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  /* Ensure the carousel fits the container */
+  .carousel-container {
+    height: 100%;
+  }
+  
+  /* Notch styling for iPhone mockup */
+  .iphone-notch {
+    width: 60px;
+    height: 20px;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* Button styling */
+  button {
+    border-radius: 20px !important;
+    border: none;
+  }
+  
+  /* Sub-section styling with proper spacing */
+  .sub {
+    margin-top: 20px;
+  }
+  
